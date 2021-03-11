@@ -1,0 +1,25 @@
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button 
+  -webkit-appearance: none;
+  margin: 0;
+  
+.btn 
+  padding: 1.2rem 2.5rem
+  border: 1px solid $dark-blue
+  outline: none
+  cursor: pointer
+  text-transform: uppercase
+  +light
+  letter-spacing: 0.1em
+  font-size: 1rem
+  line-height: 14px
+.btn-primary 
+  background-color: $dark-blue
+  color: #fff
+  font-weight: 100
+  transition: all 0.3s
+  &:hover 
+    background-color: rgba(#0b467e, 0.98)
+    border: 1px solid $dark-blue
+    text-shadow: #fff 0px 0px 1px
+    // border-radius: 8px
